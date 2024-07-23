@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Listener</title>
+  </head>
+  <body>
+    <p id="pId">I am sample paragraph</p>
+    <!-- task 1
+    <button onclick="handleSingleClick()">Click Now</button> -->
+    <!-- <img
+      src="https://png.pngtree.com/png-clipart/20191122/original/pngtree-user-icon-isolated-on-abstract-background-png-image_5192004.jpg"
+      alt="js image"
+      id="imgId"
+    /> -->
+    <!-- task 2
+    <button ondblclick="handleDoubleClick()">Show / hide image</button> -->
+
+    <!-- task 3 and 4
+    <button onmouseover="handleMouseOut()" id="btn" onmouseout="">
+      Hover me
+    </button> -->
+
+    <!-- task 5
+    <input type="text" id="input" onkeydown="printKeyDown()" /> -->
+
+    <form action="" onsubmit="handleSubmit()">
+      <input type="text" />
+    </form>
+  </body>
+  <script>
+    // task 1
+    // function handleSingleCslick() {
+    //   const p = document.getElementById("pId");
+    //   p.textContent = "Changed content";
+    // }
+    // //task 2
+    // function handleDoubleClick() {
+    //   const image = document.getElementById("imgId");
+    //   image.style.display = "none";
+    // }
+
+    // task 3
+    // function handleMouseOver() {
+    //   const btn = document.getElementById("btn");
+    //   btn.style.background = "blue";
+    // }
+
+    // task 4
+    // function handleMouseOut() {
+    //   const btn = document.getElementById("btn");
+    //   btn.style.background = "white";
+    // }
+
+    // task 5
+    // function printKeyDown(e) {
+    //   const input = document.getElementById("input");
+    //   console.log(input.value);
+    // }
+
+    // task 6
+    function handleSubmit(e) {
+      e.preventDefault();
+    }
+  </script>
+</html>
